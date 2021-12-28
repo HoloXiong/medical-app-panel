@@ -1,0 +1,39 @@
+.logo {
+    height: 32px;
+    margin: 16px;
+}
+  
+  /* 轮播图下面部分的颜色 */
+  .site-layout .site-layout-background {
+    background:whitesmoke;
+  }
+    [data-theme="dark"] .site-layout .site-layout-background { 
+      background: rgb(197, 200, 201);
+    }
+  
+  /* 顶部样式 */
+  .header-style{
+    background-color: rgb(65,202,211);
+  }
+  
+  /* 标题样式 */
+  .header-title{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  /* 侧边背景颜色修改 */
+  .menu-dark{
+    background:rgb(184, 239, 247) !important;
+    /* color: black !important; */
+}
+
+/* 底部点击收缩样式 */
+.ant-layout-sider-trigger{
+    background:rgb(65,202,211);
+    color: rgb(184, 239, 247);
+}
+
+  
